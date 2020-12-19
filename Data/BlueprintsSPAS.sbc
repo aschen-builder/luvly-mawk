@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SPAS-12</SubtypeId>
+      </Id>
+      <DisplayName>SPAS-12</DisplayName>
+      <Icon>Textures\GUI\Icons\SPAS-12\SPAS-12.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="SPAS-12Item" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SPAS-12Shells</SubtypeId>
+      </Id>
+      <DisplayName>SPAS-12 Shells</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1.1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.25" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.25" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SPAS-12Shells" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

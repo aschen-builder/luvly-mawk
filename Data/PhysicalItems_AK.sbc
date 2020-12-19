@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>	
+	  <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>ak74_Kobra</SubtypeId>
+      </Id>
+      <DisplayName>AK-74 (Kobra Sight)</DisplayName>
+	    <Description>Full Auto Assault Rifle [@650RPM] that Takes All Standardized 5.45x39mm Magazines. This one is equipped with a Kobra Red Dot Sight for better targeting and accuracy while shooting. [Accuracy: 0.24]</Description>
+      <Icon>Textures\GUI\Icons\ak74_Kobra_Icon.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\AK\ak74_Kobra.mwm</Model>
+	    <PhysicalMaterial>Metal</PhysicalMaterial>
+      <WeaponDefinitionId Subtype="ak74_Kobra" />
+	    <ShowAmmoCount>true</ShowAmmoCount>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

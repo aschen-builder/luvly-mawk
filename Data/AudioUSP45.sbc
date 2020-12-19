@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcUSPShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.45</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="USPShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.2</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\USP45_01.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealUSPShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.45</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="USPShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.2</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\USP45_01.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcUSPSUPShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.45</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="USPSUPShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.2</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\USP45_02.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealUSPSUPShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.45</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="USPSUPShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.2</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\USP45_02.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

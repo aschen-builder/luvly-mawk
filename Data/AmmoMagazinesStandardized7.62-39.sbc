@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Standardized7p62x39mm</SubtypeId>
+      </Id>
+      <DisplayName>Standardized 30rnd 7.62x39mm Magazine</DisplayName>
+      <Description>DummyDescription</Description>
+      <Icon>Textures\Models\Weapons\Standardized\7.62x39mm_Icon.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.05</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\Weapons\Standardized\7.62x39_Magazine.mwm</Model>
+      <Capacity>30</Capacity>
+      <AmmoDefinitionId Subtype="Standardized7p62x39mm" />
+    </AmmoMagazine>
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Standardized7p62x39mm_AP</SubtypeId>
+      </Id>
+      <DisplayName>Standardized 30rnd 7.62x39mm Armor Piercing Magazine</DisplayName>
+      <Description>DummyDescription</Description>
+      <Icon>Textures\Models\Weapons\Standardized\7.62x39mm_AP_Icon.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.05</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\Weapons\Standardized\7.62x39_Magazine.mwm</Model>
+      <Capacity>30</Capacity>
+      <AmmoDefinitionId Subtype="Standardized7p62x39mm_AP" />
+    </AmmoMagazine>
+	
+  </AmmoMagazines>
+</Definitions>

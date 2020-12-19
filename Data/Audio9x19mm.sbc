@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Arc9mmShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.25</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="9mmShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\9x19mm_01.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Real9mmShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.25</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="9mmShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\9x19mm_01.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Arc9mmSupShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.25</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="9mmSupShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\9x19mm_02.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Real9mmSupShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.25</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="9mmSupShot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\9x19mm_02.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

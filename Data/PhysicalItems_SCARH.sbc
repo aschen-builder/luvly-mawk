@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>	
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>SCARH_Tactical_Item</SubtypeId>
+      </Id>
+      <DisplayName>SCAR-H Tactical (Holo + Silencer + Angled Grip + RPM Mod)</DisplayName>
+	    <Description>Full Auto Assault Rifle @650RPM that Takes SCAR-H 7.62x51 NATO Magazines and Armor Piercing 7.62×51mm NATO Magazines. This one is equipped with a Holo Sight, a Silencer and a Angled Fore Grip for being quieter, much better accuracy while shooting and better targeting. Is also tuned to a slightly higher firerate. Accuracy: 0.135</Description>
+      <Icon>Textures\GUI\Icons\SCAR-H_Tactical_icon.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\SCAR17\SCAR17_Tactical.mwm</Model>
+	    <PhysicalMaterial>Metal</PhysicalMaterial>
+      <WeaponDefinitionId Subtype="SCAR-H_Tactical" />
+	    <ShowAmmoCount>true</ShowAmmoCount>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

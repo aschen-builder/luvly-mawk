@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Standardized7p62x39mm</SubtypeId>
+      </Id>
+      <DisplayName>Standardized 30rnd 7.62x39mm Magazine</DisplayName>
+      <Icon>Textures\Models\Weapons\Standardized\7.62x39mm_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.33" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Standardized7p62x39mm" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Standardized7p62x39mm_AP</SubtypeId>
+      </Id>
+      <DisplayName>Standardized 30rnd 7.62x39mm Armor Piercing Magazine</DisplayName>
+      <Icon>Textures\Models\Weapons\Standardized\7.62x39mm_AP_Icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.92" TypeId="Ingot" SubtypeId="Magnesium" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Standardized7p62x39mm_AP" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

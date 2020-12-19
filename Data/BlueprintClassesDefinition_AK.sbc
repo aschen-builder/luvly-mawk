@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>CharWeapons</SubtypeId>
+      </Id>
+      <DisplayName>Weapons</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	
+	<Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>CharMags</SubtypeId>
+      </Id>
+      <DisplayName>Weapons</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	
+	<Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>CharBasicWeapons</SubtypeId>
+      </Id>
+      <DisplayName>Weapons</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	
+	<Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>CharBasicMags</SubtypeId>
+      </Id>
+      <DisplayName>Weapons</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+</Definitions>

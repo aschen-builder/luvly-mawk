@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>G36-G</SubtypeId>
+      </Id>
+      <DisplayName>G36 Rifle (Grip)</DisplayName>
+      <Icon>Textures\GUI\Icons\G36\G36-G.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5.5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="2.25" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="G36-GItem" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>G36_Magazine</SubtypeId>
+      </Id>
+      <DisplayName>G36 Magazine</DisplayName>
+      <Icon>Textures\Models\Weapons\Standardized\556_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="G36Mag" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>G36_Magazine_AP</SubtypeId>
+      </Id>
+      <DisplayName>G36 AP Magazine</DisplayName>
+      <Icon>Textures\Models\Weapons\Standardized\556_AP_Ammo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Magnesium" />
+		    <Item Amount="0.3" TypeId="Ingot" SubtypeId="Cobalt" />
+		    <Item Amount="0.2" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="G36Mag_AP" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

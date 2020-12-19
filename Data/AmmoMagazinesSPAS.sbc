@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>SPAS-12Shells</SubtypeId>
+      </Id>
+      <DisplayName>SPAS-12 Shells</DisplayName>
+      <Description>DummyDescription</Description>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.05</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <Capacity>8</Capacity>
+      <AmmoDefinitionId Subtype="SPAS-12Shells" />
+    </AmmoMagazine>
+  </AmmoMagazines>
+</Definitions>

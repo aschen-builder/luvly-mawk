@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>	
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>G36-GItem</SubtypeId>
+      </Id>
+      <DisplayName>G36 Rifle (Grip)</DisplayName>
+      <Icon>Textures\GUI\Icons\G36\G36-G.dds</Icon>
+      <Description>The G36 Rifle uses Standardized 5.56x45mm ammo as well as Standardized 5.56x45mm Armor Piecing Ammo. Has a Rate of Fire of 750RPM with decent accuracy. Is Equipped with a front grip for better control.</Description>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\G36\G36-G.mwm</Model>
+      <WeaponDefinitionId Subtype="G36-G" />
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

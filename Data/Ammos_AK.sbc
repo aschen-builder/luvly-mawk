@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>AK74Magazine</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>380</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>850</MaxTrajectory>
+        <BackkickForce>2.6</BackkickForce>
+        <PhysicalMaterial>RifleBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.05</ProjectileTrailScale>
+        <ProjectileHitImpulse>2.8</ProjectileHitImpulse>
+        <ProjectileMassDamage>34</ProjectileMassDamage>
+        <ProjectileHealthDamage>25</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+        <ProjectileHeadShotDamage>86</ProjectileHeadShotDamage>
+		    <ProjectileTrailColor x="1.0" y="0.75" z="0.5" />
+      </ProjectileProperties>
+    </Ammo>
+	
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>AK74Magazine_AP</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>420</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>969</MaxTrajectory>
+        <BackkickForce>3.0</BackkickForce>
+        <PhysicalMaterial>RifleBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>5.0</ProjectileHitImpulse>
+        <ProjectileMassDamage>60</ProjectileMassDamage>
+        <ProjectileHealthDamage>30</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+        <ProjectileHeadShotDamage>90</ProjectileHeadShotDamage>
+        <ProjectileTrailScale>0.1</ProjectileTrailScale>
+		    <ProjectileTrailColor x="0.8" y="0.4" z="0.1" />
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

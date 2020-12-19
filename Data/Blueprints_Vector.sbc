@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>  
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Vector-GS</SubtypeId>
+      </Id>
+      <DisplayName>Vector Submachine Gun (Grip + Suppressor)</DisplayName>
+      <Icon>Textures\GUI\Icons\Vector\Vector-GS.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3.5" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="3.25" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="2.25" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Vector-GSItem" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Vector_Magazine</SubtypeId>
+      </Id>
+      <DisplayName>Vector 9x19mm 33rnd Magazine</DisplayName>
+      <Icon>Textures\GUI\Icons\Vector\Vector-MAG.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.66" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.13" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.13" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="VectorMag" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

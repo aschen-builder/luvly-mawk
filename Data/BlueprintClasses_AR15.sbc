@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   
+   <BlueprintClassEntries>
+   
+    <Entry Class="CharWeapons" BlueprintSubtypeId="AR-15-H" />
+
+    <Entry Class="CharMags" BlueprintSubtypeId="AR15_Magazine" />
+    <Entry Class="CharMags" BlueprintSubtypeId="AR15_Magazine_AP" />
+    <Entry Class="CharBasicMags" BlueprintSubtypeId="AR15_Magazine" />
+	
+  </BlueprintClassEntries>
+</Definitions>

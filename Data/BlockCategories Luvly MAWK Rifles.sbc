@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Luvly MAWK Rifles</DisplayName>
+      <Name>Luvly MAWK Rifles</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <ItemIds>
+        <!--<string>ak74_Kobra</string>-->
+
+        <string>SCARH_Tactical_Item</string><!--keep-->
+
+        <string>G36-GItem</string><!--keep-->
+	    </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

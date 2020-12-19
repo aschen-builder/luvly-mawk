@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>SPAS-12Shells</SubtypeId>
+      </Id>
+      <BasicProperties>
+		<DesiredSpeed>120</DesiredSpeed>
+		<SpeedVariance>0</SpeedVariance>
+		<MaxTrajectory>200</MaxTrajectory>
+		<BackkickForce>3</BackkickForce>
+		<PhysicalMaterial>RifleBullet</PhysicalMaterial>
+	   </BasicProperties>
+	   <ProjectileProperties>
+		<ProjectileHitImpulse>0.9</ProjectileHitImpulse>
+		<ProjectileMassDamage>9</ProjectileMassDamage>
+		<ProjectileHealthDamage>11</ProjectileHealthDamage>
+		<ProjectileTrailColor x="1.0" y="0.7" z="0.3" />
+		<ProjectileTrailScale>0.3</ProjectileTrailScale>
+		<ProjectileTrailProbability>1</ProjectileTrailProbability>
+		<ProjectileCount>12</ProjectileCount>
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

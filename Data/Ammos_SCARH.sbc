@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>SCARHMagazine</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>420</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>900</MaxTrajectory>
+        <BackkickForce>3.2</BackkickForce>
+        <PhysicalMaterial>RifleBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>3.6</ProjectileHitImpulse>
+        <ProjectileMassDamage>34</ProjectileMassDamage>
+        <ProjectileHealthDamage>38</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+        <ProjectileHeadShotDamage>92</ProjectileHeadShotDamage>
+        <ProjectileTrailScale>0.05</ProjectileTrailScale>
+        <ProjectileTrailColor x="0.9" y="0.7" z="0.3" />
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+	
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>SCARHMagazine_AP</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>400</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>940</MaxTrajectory>
+        <BackkickForce>3.6</BackkickForce>
+        <PhysicalMaterial>RifleBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>3.8</ProjectileHitImpulse>
+        <ProjectileMassDamage>64</ProjectileMassDamage>
+        <ProjectileHealthDamage>40</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+        <ProjectileHeadShotDamage>95</ProjectileHeadShotDamage>
+        <ProjectileTrailScale>0.1</ProjectileTrailScale>
+		    <ProjectileTrailColor x="0.8" y="0.3" z="0.1" />
+        <ProjectileTrailProbability>1.0</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

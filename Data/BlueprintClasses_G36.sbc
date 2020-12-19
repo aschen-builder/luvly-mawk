@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   
+   <BlueprintClassEntries>
+   
+    <Entry Class="CharWeapons" BlueprintSubtypeId="G36-G" />
+
+    <Entry Class="CharMags" BlueprintSubtypeId="G36_Magazine" />
+    <Entry Class="CharMags" BlueprintSubtypeId="G36_Magazine_AP" />
+    <Entry Class="CharBasicMags" BlueprintSubtypeId="G36_Magazine" />
+	
+  </BlueprintClassEntries>
+  
+</Definitions>

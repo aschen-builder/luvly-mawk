@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>AutomaticRifleItem</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\AutomaticRifle.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <WeaponDefinitionId Subtype="AutomaticRifleGun" />
+      <ShowAmmoCount>true</ShowAmmoCount>
+      <Public>false</Public>
+    </PhysicalItem>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>PreciseAutomaticRifleItem</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PreciseAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_Precise.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\PreciseAutomaticRifle.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <WeaponDefinitionId Subtype="PreciseAutomaticRifleGun" />
+      <ShowAmmoCount>true</ShowAmmoCount>
+      <Public>false</Public>
+    </PhysicalItem>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_RapidFireAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_RapidFire.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\RapidFireAutomaticRifle.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <WeaponDefinitionId Subtype="RapidFireAutomaticRifleGun" />
+      <ShowAmmoCount>true</ShowAmmoCount>
+      <Public>false</Public>
+    </PhysicalItem>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_EliteAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_Elite.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\UltimateAutomaticRifle.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <WeaponDefinitionId Subtype="UltimateAutomaticRifleGun" />
+      <ShowAmmoCount>true</ShowAmmoCount>
+      <Public>false</Public>
+    </PhysicalItem>
+    
+
+  </PhysicalItems>
+</Definitions>

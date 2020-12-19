@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>VectorMagazine</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>650</MaxTrajectory>
+        <BackkickForce>3</BackkickForce>
+        <PhysicalMaterial>RifleBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.05</ProjectileTrailScale>
+        <ProjectileHitImpulse>3</ProjectileHitImpulse>
+        <ProjectileMassDamage>11</ProjectileMassDamage>
+        <ProjectileHealthDamage>15</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+        <ProjectileHeadShotDamage>70</ProjectileHeadShotDamage>
+		    <ProjectileTrailColor x="1.0" y="0.8" z="0.5" />
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

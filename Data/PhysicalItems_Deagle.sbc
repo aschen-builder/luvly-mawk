@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>Deagle-ReflexItem</SubtypeId>
+      </Id>
+      <DisplayName>Desert Eagle (Reflex)</DisplayName>
+      <Icon>Textures\GUI\Icons\Deagle\Deagle-Reflex.dds</Icon>
+      <Description>The Desert Eagle or Deagle is a powerful .50AE Handgun that is expensive but fairly accurate. Has an attached Reflex Sight for improved aim. Uses Desert Eagle 7rnd .50AE Magazines.</Description>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\Deagle\Deagle-Reflex.mwm</Model>
+      <WeaponDefinitionId Subtype="Deagle-Reflex" />
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

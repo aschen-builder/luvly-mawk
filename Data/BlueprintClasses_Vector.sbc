@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   
+   <BlueprintClassEntries>
+   
+    <Entry Class="CharWeapons" BlueprintSubtypeId="Vector-GS" />
+
+    <Entry Class="CharMags" BlueprintSubtypeId="Vector_Magazine" />
+    <Entry Class="CharBasicMags" BlueprintSubtypeId="Vector_Magazine" />
+	
+  </BlueprintClassEntries>
+  
+</Definitions>

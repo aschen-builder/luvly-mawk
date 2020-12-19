@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>	
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>Vector-GSItem</SubtypeId>
+      </Id>
+      <DisplayName>Vector Submachine Gun (Grip + Suppressor)</DisplayName>
+      <Icon>Textures\GUI\Icons\Vector\Vector-GS.dds</Icon>
+      <Description>The Vector Submachine Gun uses Vector 9x19mm 33rnd Magazines. Has a Rate of Fire of 1200RPM with decent accuracy at close range. Is Equipped with a front grip for better control and with a Suppressor to allow for more quiet fire.</Description>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\Vector\Vector-GS.mwm</Model>
+      <WeaponDefinitionId Subtype="Vector-GS" />
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

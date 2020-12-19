@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>SPAS-12Item</SubtypeId>
+      </Id>
+      <DisplayName>SPAS-12</DisplayName>
+      <Icon>Textures\GUI\Icons\SPAS-12\SPAS-12.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>14</Volume>
+      <Model>Models\Weapons\SPAS-12\SPAS-12.mwm</Model>
+      <WeaponDefinitionId Subtype="SPAS-12" />
+    </PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>

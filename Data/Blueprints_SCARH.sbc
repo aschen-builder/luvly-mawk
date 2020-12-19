@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SCAR-H_Tactical</SubtypeId>
+      </Id>
+      <DisplayName>SCAR-H Tactical</DisplayName>
+      <Icon>Textures\GUI\Icons\SCAR-H_Tactical_icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="95" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="SCARH_Tactical_Item" />
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SCARH_Magazine</SubtypeId>
+      </Id>
+      <DisplayName>SCAR-H 7.62×51mm Magazine</DisplayName>
+      <Icon>Textures\GUI\Icons\SCAR-H_ammo_icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SCARHMag" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SCARH_Magazine_AP</SubtypeId>
+      </Id>
+      <DisplayName>SCAR-H Armor Piercing 7.62×51mm Magazine</DisplayName>
+      <Icon>Textures\GUI\Icons\SCAR-H_AP_ammo_icon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.9" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SCARHMag_AP" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>	
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>AR-15-H</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="700" ShootSoundName="TARShot" ShotsInBurst="30"/>
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.3</DeviateShotAngle>
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <RangeMultiplier>0.5</RangeMultiplier>
+      <UseRandomizedRange>false</UseRandomizedRange>
+      <Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true"/>
+        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
+      </Effects>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="AR15Mag" />
+        <AmmoMagazine Subtype="AR15Mag_AP" />
+      </AmmoMagazines>
+    </Weapon>
+  </Weapons>
+</Definitions>

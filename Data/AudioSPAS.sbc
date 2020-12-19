@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcSPAS-12Shot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.22</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="170" Sound="SPAS-12Shot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\SPAS-12.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealSPAS-12Shot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <Volume>0.25</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="SPAS-12Shot" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\SPAS-12.wav</Start>
+        </Wave>
+
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

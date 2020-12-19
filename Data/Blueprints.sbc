@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RapidFireAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_RapidFireAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_RapidFire.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="RapidFireAutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PreciseAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PreciseAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_Precise.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="PreciseAutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>UltimateAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_EliteAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_Elite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="UltimateAutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+      <Public>false</Public>
+    </Blueprint>
+       
+  </Blueprints>
+</Definitions>
